@@ -1,6 +1,6 @@
 package org.launchcode;
 
-public class Car {
+public class Car1 {
     private String make;
     private String model;
     private int gasTankSize;
@@ -8,7 +8,7 @@ public class Car {
     private double milesPerGallon;
     private double odometer = 0;
 
-    public Car(String make, String model, int gasTankSize, double milesPerGallon) {
+    public Car1(String make, String model, int gasTankSize, double milesPerGallon) {
         this.make = make;
         this.model = model;
         this.gasTankSize = gasTankSize;
