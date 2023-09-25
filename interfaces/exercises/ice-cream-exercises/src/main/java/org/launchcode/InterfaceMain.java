@@ -1,12 +1,20 @@
 package org.launchcode;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class InterfaceMain {
     public static void main(String[] args) {
         Case menu = new Case();
         ArrayList<Flavor> flavors = menu.getFlavors();
         ArrayList<Cone> cones = menu.getCones();
+        ArrayList<Topping> toppings = menu.getToppings();
+
+        flavors.sort(new FlavorComparator());
+        cones.sort(new ConeComparator());
+        toppings.sort(new ToppingComparator());
+
+        System.out.println(toppings);
 
         // TODO: Use a Comparator class to sort the 'flavors' array alphabetically by the 'name' field.
 

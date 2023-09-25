@@ -6,7 +6,7 @@ public class SmartPhone extends Computer {
 
     }
 
-    public boolean isNewestModel() {
-        return isiPhone && this.modelType = "iPhone 15";
-    }
+   // public boolean isNewestModel() {
+       // return isiPhone && this.modelType = "iPhone 15";
+   // }
 }
