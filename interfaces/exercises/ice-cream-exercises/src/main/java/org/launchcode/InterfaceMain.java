@@ -2,7 +2,7 @@ package org.launchcode;
 
 import java.util.ArrayList;
 
-public class Main {
+public class InterfaceMain {
     public static void main(String[] args) {
         Case menu = new Case();
         ArrayList<Flavor> flavors = menu.getFlavors();

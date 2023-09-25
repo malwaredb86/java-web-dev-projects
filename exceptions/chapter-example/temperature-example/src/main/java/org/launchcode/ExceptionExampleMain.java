@@ -2,7 +2,7 @@ package org.launchcode;
 
 import java.util.Scanner;
 
-public class Main {
+public class ExceptionExampleMain {
     public static void main(String[] args) {
 
         double fahrenheit;

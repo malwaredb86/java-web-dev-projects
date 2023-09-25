@@ -1,6 +1,6 @@
 package org.launchcode;
 
-public class Main {
+public class InterfaceStudioMain {
     public static void main(String[] args) {
 
         // TODO: Declare and initialize a CD and a DVD object.
